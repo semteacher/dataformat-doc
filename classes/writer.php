@@ -71,7 +71,7 @@ tr:hover td {
 table {
     border-collapse: collapse;
     border-spacing: 0pt;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 </style>
@@ -134,7 +134,7 @@ tr:hover td {
 table {
     border-collapse: collapse;
     border-spacing: 0pt;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 </style>
