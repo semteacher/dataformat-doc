@@ -47,7 +47,7 @@ class writer extends \core\dataformat\base {
      * @param array $columns
      */
     public function write_header($columns) {
-        echo "<!DOCTYPE html><html>";
+        echo "<!DOCTYPE html><html><head><meta charset=\"UTF-8\">";
         echo \html_writer::tag('title', $this->filename);
         echo "<style>
 html, body {
@@ -75,6 +75,7 @@ table {
     margin: auto;
 }
 </style>
+</head>
 <body>
 <table border=1 cellspacing=0 cellpadding=3>
 ";
@@ -110,7 +111,7 @@ table {
 
     /***Static methods***/
     public static function write_document_header($title) {
-        echo "<!DOCTYPE html><html>";
+        echo "<!DOCTYPE html><html><head><meta charset=\"UTF-8\">";
         echo \html_writer::tag('title', $title);
         echo "<style>
 html, body {
@@ -138,6 +139,7 @@ table {
     margin: auto;
 }
 </style>
+</head>
 <body>";
     }
 
